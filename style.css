@@ -1,0 +1,81 @@
+main{
+	text-align: center;
+	min-width: 620px;
+}
+.calc {
+	background-color: #2F4F4F;
+	display: inline-block;
+	height: 395px;
+	text-align: center;
+}
+.calc_display input {
+	display: block;
+	box-sizing: border-box;
+	width: 552px; 
+	height: 60px;
+	margin: 12px;
+	background-color: #FFFFF0;
+	color: #2F4F4F;
+	text-align: left;
+	font-size: 35px;
+	padding: 0px 10px;
+	border-width: 0;
+}
+table {
+	display: inline-block;
+	border-collapse: collapse;
+}
+.calc_buttons {
+	margin-right: 4px;
+}
+.func_buttons {
+	margin-left: 4px;
+}
+button {
+	padding: 0;
+	width: 60px;
+	height: 60px;
+	background-color: #FFFFF0;
+	font-size: 25px;
+	color: #2F4F4F;
+	cursor: pointer;
+	border-width: 0;
+	transition-duration: 1s;
+}
+button:focus{
+	outline-color: transparent;
+}
+.number:hover,
+.operation:hover,
+#decimal:hover {
+	background-color: #008B8B;
+	color: #FFFFF0;
+}
+.clear{
+	background-color: #E9967A;
+	color: #FFFFF0;
+}
+.clear:hover {
+	opacity: 0.6;
+}
+#equal{
+	background-color: #3CB371;
+	color: #FFFFF0;
+}
+#equal:hover {
+	opacity: 0.6;
+}
+.func_buttons button{
+	opacity: 0.8;
+}
+.func_buttons button:hover{
+	opacity: 1;
+	background-color: #FFFFF0;
+	color: #2F4F4F;
+}
+.btn_nul {
+	width: 120px;
+}
+tr td {
+	padding: 0;
+}
